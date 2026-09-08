@@ -1,0 +1,23 @@
+name: Task
+description: Internal work item — chore, refactor, docs, infrastructure
+labels: ["task"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs doing
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      placeholder: |
+        - [ ] …
+        - [ ] …
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context and links

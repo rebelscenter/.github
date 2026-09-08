@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/rebelscenter/.github/blob/main/SECURITY.md
+    about: Do not open a public issue — report security problems privately.
+  - name: Business or project enquiry
+    url: mailto:office@rebels.center
+    about: Want us to build something? Email us.
